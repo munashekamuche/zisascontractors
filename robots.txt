@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow crawling of admin areas and forms (if any)
+Disallow: /forms/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow crawling of all important content
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Sitemap location
+Sitemap: https://zisascontractors.co.zw/sitemap.xml
+
+# Crawl delay (optional - be respectful to server resources)
+Crawl-delay: 1
